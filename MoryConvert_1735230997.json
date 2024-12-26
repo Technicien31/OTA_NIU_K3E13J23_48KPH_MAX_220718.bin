@@ -1,0 +1,15 @@
+{}{}{
+    "data": {
+        "items": [
+            {
+                "devicetype": "FOC",
+                "hasnew": true,
+                "version": "K3E13J24",
+                "date": "1659400295069",
+                "size": "30010",
+                "url": "https://github.com/scooterhacking/niu_scooters/raw/main/KQI3/Max/US/OTA_NIU_K3E13J23_48KPH_MAX_220718.bin",
+                "md5": "f0c7a3e5a7278f21787482d22466b5cf"
+            }  "release_notes": "Unlocked maximum speed of 48 km/h.",
+    "speed_limit": "48 km/h"  // Information spécifique à la nouvelle vitesse maximale
+openssl dgst -sha256 -sign private_key.pem -out signature.sig OTA_NIU_K3E13J24.bin
+    }
