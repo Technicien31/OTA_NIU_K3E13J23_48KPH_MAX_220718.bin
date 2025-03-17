@@ -1,0 +1,20 @@
+{
+    "data": {
+        "items": [
+            {
+                "devicetype": "FOC",
+                "hasnew": true,
+                "version": "K2E13J23",
+                "date": "1742221187642",
+                "size": "27956",
+                "url": "https://github.com/Technicien31/OTA_NIU_K2E13J23_55KPH_Pro_220718.bin",
+                "md5": "6e14b26184c4645a436058eaa1afe57f",
+                "sha256": "04a8dc5211a6034ea44986f049fdc0cc7b249d2988af5eaba8508999b5ad4379",
+                "signature": "a82541f177f4b8a8391b24dedb541ade1ec9b736e6b2c1cc62cc3bd0ffea4c954c204c262d6178e75de715d5bad775e87f3cd6835c9867876d58bab3b524310ed1337fbb3ec19ec1cffbcea79107385735a22b207ffb4fb45da4b0eac46d7d9940e5e2da991977824bfeb23ff183349dd09181b20e4dd962bc4c828555fa48b854dbee1b3a7a483e4019fc55a6fb9721bdffe018911523c23ed291b586bdf76865b748f6b63c2927fe78584d32190d214c4973aa4173d8f7f099ba71103ab4739db5f3959208fd7724ca8a0474737d3021805229e9b0e17a8516712433f3ce08dbf98e8f98a28aee74a03165dae5bd934a5c1f8810e3d945ce9c8ef6d1a1dce5"
+            }
+        ],
+        "release_notes": "Unlocked maximum speed of 55 km/h.",
+        "speed_limit": "55 km/h",
+        "public_key": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyu4SgZZz8xoxN8xB+wvq\nVKM5vzmCdgxDGwTB9DvoT0Geh+s6D4oLtB24Aj1u8e3lWFMXi7C2Zy/24y+RfV/k\n+VjtTXeFBIzA7SPlY3zNXQyjKZcNC+p1lV347IND4ac4CNhTNg7LG76tKc4o+jOj\nEeRtt6PoXbnUpcC2OLbptdCAKidDpwNMZUNinIfwaCmnDOoVcJHTj9fawdH9XLHK\nnvG5l++nBCvzqmng29KRmTkogFxmHNKg5mBUE37exb2LgANECA1ZFMTAz/q4K8Rl\nH5isn/7lXRsXaE8GL9uVhSkgvNNq6r+LZwcW4PRbDC5rrfsxfsOm/5b2efKmiA0f\nPwIDAQAB\n-----END PUBLIC KEY-----\n"
+    }
+}
