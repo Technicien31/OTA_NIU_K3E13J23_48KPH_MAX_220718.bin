@@ -12,4 +12,3 @@
             }  "release_notes": "Unlocked maximum speed of 48 km/h.",
     "speed_limit": "48 km/h"  // Information spécifique à la nouvelle vitesse maximale
 openssl dgst -sha256 -sign private_key.pem -out signature.sig OTA_NIU_K3E13J24.bin
-    }
