@@ -1,0 +1,17 @@
+{
+    "data": {
+        "items": [
+            {
+                "devicetype": "FOC",
+                "hasnew": true,
+                "version": "K3E13J24",
+                "date": "1742221187642",
+                "size": "27792",
+                "url": "https://raw.githubusercontent.com/Technicien31/<repo>/main/OTA_NIU_K3E13J24_60KPH_MAX.bin"
+                "md5": "b78a44fc4ea26b32d8fed9a76dfa1c5c"
+            }
+        ],
+        "release_notes": "Unlocked maximum speed of 60 km/h.",
+        "speed_limit": "60 km/h"
+    }
+}
