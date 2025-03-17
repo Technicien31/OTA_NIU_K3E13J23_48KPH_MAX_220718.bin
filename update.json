@@ -14,4 +14,32 @@
         "release_notes": "Unlocked maximum speed of 60 km/h.",
         "speed_limit": "60 km/h"
     }
-}
+}import hashlib
+from cryptography.hazmat.primitives.asymmetric import rsa, padding
+from cryptography.hazmat.primitives import hashes, serialization
+
+# Contenu simulé du fichier (à remplacer par le vrai contenu du fichier)
+file_content = b"Simulated firmware file content for OTA_NIU_K3E13J24_60KPH_MAX.bin"
+
+# Génération de la signature SHA256
+sha256_hash = hashlib.sha256(file_content).hexdigest()
+
+# Génération de la paire de clés RSA (2048 bits)
+private_key = rsa.generate_private_key(public_exponent=65537, key_size=2048)
+public_key = private_key.public_key()
+
+# Signature du fichier avec la clé privée
+signature = private_key.sign(
+    file_content,
+    padding.PKCS1v15(),
+    hashes.SHA256()
+)
+
+# Exportation de la clé publique en format PEM
+public_key_pem = public_key.public_bytes(
+    encoding=serialization.Encoding.PEM,
+    format=serialization.PublicFormat.SubjectPublicKeyInfo
+).decode('utf-8')
+
+# Résultat
+sha256_hash, signature.hex(), public_key_pem
